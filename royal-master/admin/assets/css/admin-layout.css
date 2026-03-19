@@ -1,0 +1,96 @@
+
+.header {
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 12px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+
+ul.orders {
+    margin-left: 19px;
+}
+
+.header h2 {
+    font-size: 20px;
+}
+
+.header p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.header-right i {
+    font-size: 18px;
+    color: #374151;
+}
+
+/* ===== STATS ===== */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.stat-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.stat-box h3 {
+    font-size: 22px;
+}
+
+.stat-box span {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* ===== CONTENT ===== */
+.content {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.content h3 {
+    margin-bottom: 15px;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #1f2937;
+    color: #fff;
+    padding: 12px;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+tr:hover {
+    background: #f9fafb;
+}
